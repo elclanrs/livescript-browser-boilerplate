@@ -1,0 +1,8 @@
+{
+  "name": "name",
+  "author": "author",
+  "dependencies": {
+    "prelude-ls": "*",
+    "liveify": "*"
+  }
+}
