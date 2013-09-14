@@ -1,3 +1,3 @@
 window <<< require \prelude-ls
 
-console.log 'Hello World!'
+console.log "Hello World"

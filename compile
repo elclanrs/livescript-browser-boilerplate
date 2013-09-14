@@ -1,4 +1,4 @@
 #!/bin/bash
 
-browserify -t liveify js/index.ls > js/bundle.js
+browserify -d -t liveify js/index.ls > js/bundle.js
 cat js/bundle.js | uglifyjs -m -c -o js/bundle.min.js
